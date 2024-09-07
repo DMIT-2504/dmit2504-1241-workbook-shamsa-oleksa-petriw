@@ -3,8 +3,8 @@ class Person {
   late int _age;
 
   Person(String name, int age){
-    this._name = name;
-    this._age = age;
+    _name = name;
+    _age = age;
   }
 
   String get name {
